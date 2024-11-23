@@ -42,7 +42,7 @@ Ao clicar no botão deve mostrar um alert com a mensagem
 
 # Minha Resolução 👩‍💻
 
-<img src="./src/assets/readme/gif/demonstration.gif">
+<img src="./src/assets/readme/gif/demonstration.gif" alt="Gif que mostra as funcionalidades da aplicação">
 
 **[Clique aqui](https://amandameneghini.github.io/base-do-react/) para visualizar**
 
@@ -172,6 +172,7 @@ _*Continuous Deployment/Delivery (Entrega/Implantação Contínua)_
       margin=10 
       width=80
       src="https://avatars.githubusercontent.com/u/126250269?s=400&u=a41f78350f40507f1e429eb13b63e19c4ffe6e09&v=4"
+        alt="Imagem do perfil do GitHub"
     />
     <p>&nbsp&nbsp&nbspAmanda Meneghini<br>
     &nbsp&nbsp&nbsp
