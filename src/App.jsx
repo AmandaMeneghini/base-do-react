@@ -1,7 +1,7 @@
 import './App.css'
 import { useState } from 'react'
-import { Buttons } from './components/buttons/buttons';
-import { Paragraph } from './components/paragraph/paragraph';
+import { Buttons } from './components/Buttons/index';
+import { StyledText } from './components/StyledText/index';
 
 function App() {
   const [isColored, setIsColored] = useState(false);
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Paragraph isColored={isColored} isUppercase={isUppercase} />
+      <StyledText isColored={isColored} isUppercase={isUppercase} />
       <Buttons toggleColor={toggleColor} toggleUppercase={toggleUppercase} isColored={isColored} isUppercase={isUppercase} />
     </>
   )

@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import Button from '../button/button'
+import Button from '../Button'
+import AlertButton from '../AlertButton'
 
 const Buttons = ({ toggleColor, toggleUppercase, isColored, isUppercase }) => {
     
@@ -7,7 +8,7 @@ const Buttons = ({ toggleColor, toggleUppercase, isColored, isUppercase }) => {
         <>
             <Button label={isColored ? 'Tirar colorido' : 'Tornar colorido'} onClick={toggleColor} />
             <Button label={isUppercase ? 'Desfazer caixa alta' : 'Deixar em caixa alta'} onClick={toggleUppercase} />
-            <Button label='Mostrar alert' showLabel={alert} />
+            <AlertButton label='Mostrar Alert' showLabel={alert} />
         </>
     )
 }

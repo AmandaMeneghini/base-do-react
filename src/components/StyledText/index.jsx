@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import './paragraph.css'
+import './index.css'
 
-const Paragraph = ({ isColored, isUppercase }) => {
+const StyledText = ({ isColored, isUppercase }) => {
     
     const paragraphText = "God Is Good";
 
@@ -18,21 +18,20 @@ const Paragraph = ({ isColored, isUppercase }) => {
         );
     };
 
-    return (
-        <p 
-            id="paragraphId"
-            style={{ 
-                textTransform: isUppercase ? 'uppercase' : 'none' 
-            }}
-        >
-            {isColored ? getColoredText(paragraphText) : paragraphText}
-        </p>
-    )
+    return <p 
+                id="paragraphId"
+                style={{ 
+                    textTransform: isUppercase ? 'uppercase' : 'none' 
+                }}
+            >
+                {isColored ? getColoredText(paragraphText) : paragraphText}
+            </p>
+    
 }
 
-Paragraph.propTypes = {
+StyledText.propTypes = {
     isColored: PropTypes.bool.isRequired,
     isUppercase: PropTypes.bool.isRequired
 }
 
-export { Paragraph }
+export { StyledText }
