@@ -1,5 +1,5 @@
 
-# Desafio API GitHub
+# Desafio React Base
 Realização de 2 desafios do módulo de "base-do-react" do curso [DevQuest](https://devemdobro.com/) utilizando componentes do React <br>
 _Obs: no meu caso criei meu projeto com Vite.js - por ser mais leve que o "create-react-app"_
 
